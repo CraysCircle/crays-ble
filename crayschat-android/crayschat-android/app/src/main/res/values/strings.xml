@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crays Circle</string>
+    
+    <!-- Onboarding strings -->
+    <string name="welcome_title">Welcome to Crays Circle</string>
+    <string name="welcome_subtitle">Secure, decentralized messaging over Bluetooth</string>
+    <string name="get_started">Get Started</string>
+    
+    <!-- Bluetooth strings -->
+    <string name="bluetooth_title">Enable Bluetooth</string>
+    <string name="bluetooth_subtitle">Crays Circle needs Bluetooth to connect with nearby devices</string>
+    <string name="bluetooth_enable">Enable Bluetooth</string>
+    <string name="bluetooth_explanation">Crays Circle uses Bluetooth Low Energy (BLE) to create a mesh network with nearby devices. This allows messages to be sent and received without internet or phone service.</string>
+    <string name="bluetooth_features">Crays Circle needs Bluetooth to:</string>
+    <string name="bluetooth_feature_1">• Discover nearby users</string>
+    <string name="bluetooth_feature_2">• Send and receive messages</string>
+    <string name="bluetooth_feature_3">• Relay messages through the mesh network</string>
+    <string name="bluetooth_not_supported_title">Bluetooth Not Supported</string>
+    <string name="bluetooth_not_supported_message">This device doesn\'t support Bluetooth Low Energy (BLE), which is required for Crays Circle to function.\n\nCrays Circle needs BLE to create mesh networks and communicate with nearby devices without internet.</string>
+    <string name="bluetooth_not_supported_explanation">This device doesn\'t support Bluetooth Low Energy (BLE), which is required for Crays Circle to function.\n\nCrays Circle needs BLE to create mesh networks and communicate with nearby devices without internet.</string>
+    
+    <!-- Battery optimization strings -->
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="battery_optimization_subtitle">Allow Crays Circle to run in the background</string>
+    <string name="battery_optimization_enable">Disable Battery Optimization</string>
+    <string name="battery_optimization_explanation">Crays Circle runs in the background to maintain mesh network connections with nearby devices. Battery optimization can interrupt these connections, causing messages to be delayed or missed.\n\nDisabling battery optimization ensures Crays Circle can reliably maintain connections and deliver messages.</string>
+    <string name="battery_optimization_note">Note: You can change this setting later in Android Settings > Apps > Crays Circle > Battery</string>
+    <string name="battery_optimization_not_supported_explanation">Your device doesn\'t require battery optimization settings. Crays Circle will run normally.</string>
+    <string name="battery_optimization_not_supported_message">Your device doesn\'t require battery optimization settings. Crays Circle will run normally.</string>
+    <string name="battery_optimization_success_message">Crays Circle can run reliably in the background</string>
+    
+    <!-- Additional battery optimization strings -->
+    <string name="battery_optimization_detected">Battery Optimization Detected</string>
+    <string name="battery_optimization_why_disable">Why disable battery optimization?</string>
+    <string name="battery_optimization_benefits">• Maintains reliable mesh network connections\n• Ensures messages are delivered promptly\n• Prevents missed messages from nearby users\n• Keeps the app responsive in background</string>
+    <string name="battery_optimization_disable_button">Disable Battery Optimization</string>
+    <string name="battery_optimization_check_again">Check Again</string>
+    <string name="battery_optimization_skip">Skip</string>
+    <string name="battery_optimization_disabled">Battery Optimization Disabled</string>
+    <string name="battery_optimization_not_required">Battery Optimization Not Required</string>
+    <string name="battery_optimization_continue">Continue</string>
+    
+    <!-- Location strings -->
+    <string name="location_title">Location Permission</string>
+    <string name="location_subtitle">Required for Bluetooth scanning</string>
+    <string name="location_grant">Grant Permission</string>
+    <string name="location_explanation">Crays Circle does NOT track your location or use GPS.\n\nLocation services are required by Android for Bluetooth scanning to work properly. This is an Android system requirement.</string>
+    <string name="location_why">Crays Circle needs location services for:</string>
+    <string name="location_why_1">• Discovering nearby devices via Bluetooth</string>
+    <string name="location_why_2">• Maintaining mesh network connections</string>
+    <string name="location_why_3">• Relaying messages between users</string>
+    <string name="location_not_granted_title">Location Permission Required</string>
+    <string name="location_not_granted_message">Location permission is required for Crays Circle to discover nearby devices via Bluetooth.\n\nThis is a standard Android requirement for Bluetooth scanning. Crays Circle does not track your location or use GPS.</string>
+    <string name="location_not_granted_explanation">Location services are standard on Android devices.\n\nCrays Circle needs location services for Bluetooth scanning to work properly (Android requirement). Without this, the app cannot discover nearby users.</string>
+    <string name="location_not_granted_note">Note: You can change this setting later in Android Settings > Apps > Crays Circle > Permissions</string>
+    
+    <!-- Permission strings -->
+    <string name="permission_title">Permissions Required</string>
+    <string name="permission_subtitle">Crays Circle needs these permissions to function</string>
+    <string name="permission_grant_all">Grant All Permissions</string>
+    <string name="permission_explanation">Crays Circle requires several permissions to create a mesh network and communicate with nearby devices. These permissions are standard for Bluetooth-based apps.</string>
+    
+    <!-- UI strings -->
+    <string name="send_message">Send Message</string>
+    <string name="your_network">Your Network</string>
+    <string name="channels">Channels</string>
+    <string name="people">People</string>
+    <string name="no_one_connected">No one connected</string>
+    
+    <!-- General strings -->
+    <string name="continue_text">Continue</string>
+    <string name="skip_text">Skip</string>
+    <string name="retry_text">Retry</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="ok_text">OK</string>
+    <string name="error_text">Error</string>
+    <string name="success_text">Success</string>
+    <string name="loading_text">Loading...</string>
+    <string name="initializing_text">Initializing...</string>
+</resources>
